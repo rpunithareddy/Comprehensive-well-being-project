@@ -1,16 +1,17 @@
-A Comprehensive Measure of Well-Being (HDI Prediction)
+# A Comprehensive Measure of Well-Being (HDI Prediction)
 
-Overview
+
+# Overview
 
 This project leverages Machine Learning to predict the Human Development Index (HDI) based on key socio-economic indicators such as income, education, and life expectancy. The goal is to move beyond GDP-based rankings and provide a more comprehensive, data-driven measure of a country's well-being using a trained regression model.
 
 The project follows a structured SDLC-style workflow — from ideation through deployment and demonstration — with each phase documented in its own folder.
 
-Live Application
+# Live Application
 
 🔗 https://hdiproject.onrender.com
 
-Key Features
+# Key Features
 
 
 Predictive Modeling – Trained regression model estimates HDI scores from socio-economic inputs.
@@ -19,11 +20,11 @@ Dynamic Results – Real-time prediction of HDI score and corresponding developm
 Cloud Deployment – Fully deployed and publicly accessible via Render.
 
 
-Tech Stack
+# Tech Stack
 
 LayerTechnologyModeling & AnalysisPython, Jupyter Notebook, Scikit-Learn, Pandas, NumPyBackendPython (Flask)FrontendHTML5, CSS3, JavaScriptDeploymentRender
 
-Repository Structure
+# Repository Structure
 
 This repository documents the project across its full development lifecycle:
 
@@ -44,7 +45,7 @@ Note: Model training and experimentation are primarily carried out in Jupyter No
 
 Getting Started
 
-Clone the repository:
+# Clone the repository:
 
 bashgit clone https://github.com/rpunithareddy/Comprehensive-well-being-project
 cd A-Comprehensive-Measure-of-Well-Being
@@ -53,6 +54,6 @@ Explore the notebooks in the Development Phase folder to see the data preprocess
 
 bashpython app.py
 
-Performance
+# Performance
 
 The trained model achieved an R² score of 0.981, indicating high predictive accuracy against actual HDI values. The deployed application was stress-tested using Postman to confirm stable response times under concurrent load.
